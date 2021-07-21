@@ -43,7 +43,7 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 8080
   target_port: 8080
   port_name: http-8080
